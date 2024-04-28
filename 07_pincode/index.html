@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nearest Post Office Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Nearest Post Office Finder</h1>
+        <div>
+            <label for="zip-code">Zip Code:</label>
+            <input type="text" id="zip-code">
+        </div>
+        <div>
+            <label for="branch-name">Branch Name:</label>
+            <input type="text" id="branch-name">
+        </div>
+        <button onclick="findNearestPostOffice()">Find Nearest Post Office</button>
+        <div id="post-office-info"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
